@@ -1,0 +1,14 @@
+header {
+    font-family : 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2em;
+    color : blue;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
