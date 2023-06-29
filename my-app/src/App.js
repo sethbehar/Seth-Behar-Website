@@ -11,11 +11,11 @@ function App() {
       <head>
        <link rel="stylesheet" href="app.css"></link>
       </head>
-      <header>
-        <h1 className='name-title'>Seth Behar</h1>
+      <header className='main-header'>
+        <h1 className='title name-title'>Seth Behar</h1>
       </header>
       <body>
-        <header className='section-title'>University of Florida</header>
+        <header className='title section-title'>University of Florida</header>
           <section className='education-list'>
             <ul>
               <li>Bachelor of Science in Computer Science</li>
@@ -23,17 +23,17 @@ function App() {
               <li>Relevant Coursework</li>
             </ul>
           </section>
-        <header className='section-title'>Experience</header>
+        <header className='title section-title'>Experience</header>
           <section className='experience-list'>
             <ul>
-              <li>TAMID Project Manager</li>
               <li>eBacon Software Engineer Internship</li>
+              <li>TAMID Project Manager</li>
             </ul>
           </section>
-        <header className='section-title'>Skills</header>
+        <header className='title section-title'>Skills</header>
           <section className='skills-list'>
             <ul>
-              <li>Java</li>
+              <li >Java</li>
               <li>C++</li>
               <li>Python</li>
               <li>React</li>
@@ -44,7 +44,7 @@ function App() {
               <li>Git</li>
             </ul>
           </section>
-        <header className='section-title'>Projects</header>
+        <header className='title section-title'>Projects</header>
           <section className='projects-list'>
             <ul>
               <li>Unreal Engine Advertisment Rendering</li>
@@ -53,12 +53,12 @@ function App() {
               <li>Auto Rebalance 401k Procedure</li>
             </ul>
           </section>
-          <header className='section-title'>Contact</header>
+          <header className='title section-title'>Contact</header>
             <section>
               <ul>
                 <li>sethbehar@gmail.com</li>
                 <li><a href='https://github.com/sethbehar'>Github</a></li>
-                <li><a href='www.linkedin.com/in/seth-behar'>Linkedin</a></li>
+                <li><a href='https://www.linkedin.com/in/seth-behar/'>Linkedin</a></li>
               </ul>
             </section>
       </body>

@@ -9,8 +9,39 @@ ul {
     list-style: none;
 }
 
+.section-title {
+    position: relative;
+  }
+  
+.section-title::before {
+      content: '';
+      position: absolute;
+      width: 225px;
+      height: 3px;
+      border-radius: 3px;
+      background-color: White;
+      bottom: 0;
+      left: 0;
+      transform-origin: center;
+      transform: scaleX(0);
+      transition: transform .1s ease-in-out;
+    }
+  
+.section-title:hover::before {
+    transform-origin: center;
+    transform: scaleX(1);
+  }
+
+.main-header {
+    height: 100px;
+}
 .name-title {
-    height: 199;
+    height: 200;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.5em;
 }
 
 .container {
