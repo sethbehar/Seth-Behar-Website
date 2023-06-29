@@ -1,15 +1,18 @@
 import React from 'react';
+import ParticleComponent from './components/ParticleComponent';
 import './App.css';
 
 function App() {
 
   return (
-    <div>
+    <div className='container'>
+      <ParticleComponent />
+      <div className='content'>
       <head>
        <link rel="stylesheet" href="app.css"></link>
       </head>
       <header>
-        <h1 classNam='name-title'>Seth Behar</h1>
+        <h1 className='name-title'>Seth Behar</h1>
       </header>
       <body>
         <header className='section-title'>University of Florida</header>
@@ -54,11 +57,12 @@ function App() {
             <section>
               <ul>
                 <li>sethbehar@gmail.com</li>
-                <li>Github</li>
-                <li>Linkedin</li>
+                <li><a href='https://github.com/sethbehar'>Github</a></li>
+                <li><a href='www.linkedin.com/in/seth-behar'>Linkedin</a></li>
               </ul>
             </section>
       </body>
+     </div>
      </div>
   );
 }
