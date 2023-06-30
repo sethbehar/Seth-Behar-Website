@@ -1,5 +1,6 @@
 import React from 'react';
 import ParticleComponent from './components/ParticleComponent';
+import CloudComponent from './components/CloudComponent';
 import './App.css';
 
 function App() {
@@ -32,17 +33,7 @@ function App() {
           </section>
         <header className='title section-title'>Skills</header>
           <section className='skills-list'>
-            <ul>
-              <li >Java</li>
-              <li>C++</li>
-              <li>Python</li>
-              <li>React</li>
-              <li>SQL</li>
-              <li>Nodejs</li>
-              <li>MongoDB</li>
-              <li>Firebase</li>
-              <li>Git</li>
-            </ul>
+              <CloudComponent />
           </section>
         <header className='title section-title'>Projects</header>
           <section className='projects-list'>

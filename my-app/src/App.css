@@ -32,14 +32,6 @@ ul {
     transform: scaleX(1);
   }
 
-.main-header {
-    height: 100px;
-}
-.name-title {
-    height: 200;
-    text-align: center;
-}
-
 .section-title {
     font-size: 1.5em;
 }
@@ -52,3 +44,27 @@ ul {
     position: relative;
     z-index: 1;
 }
+
+@keyframes blinker {
+    50% { opacity: 0.0; }
+  }
+
+.section-title {
+    width: 300px;
+}
+
+.main-header {
+    height: 100px;
+    text-align: center;
+}
+
+.name-title {
+    height: 200;
+    text-align: center;
+}
+
+
+.skills-list {
+    width: 400px;
+}
+
