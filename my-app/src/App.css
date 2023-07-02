@@ -14,9 +14,10 @@ ul {
   }
   
 .section-title::before {
+    margin: auto;
       content: '';
       position: absolute;
-      width: 225px;
+      width: 300px;
       height: 3px;
       border-radius: 3px;
       background-color: White;
@@ -28,6 +29,7 @@ ul {
     }
   
 .section-title:hover::before {
+    margin: auto;
     transform-origin: center;
     transform: scaleX(1);
   }
@@ -65,6 +67,17 @@ ul {
 
 
 .skills-list {
+    margin: auto;
+    text-align: center;
     width: 400px;
 }
 
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}

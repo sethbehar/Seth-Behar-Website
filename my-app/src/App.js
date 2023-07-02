@@ -21,7 +21,6 @@ function App() {
             <ul>
               <li>Bachelor of Science in Computer Science</li>
               <li>GPA 3.78</li>
-              <li>Relevant Coursework</li>
             </ul>
           </section>
         <header className='title section-title'>Experience</header>
@@ -38,10 +37,10 @@ function App() {
         <header className='title section-title'>Projects</header>
           <section className='projects-list'>
             <ul>
+              <li>Automated 401k Rebalances</li>
               <li>Unreal Engine Advertisment Rendering</li>
               <li>Minesweeper</li>
               <li>NFT Generator</li>
-              <li>Auto Rebalance 401k Procedure</li>
             </ul>
           </section>
           <header className='title section-title'>Contact</header>
