@@ -2,6 +2,7 @@ import React from 'react';
 import ParticleComponent from './components/ParticleComponent';
 import CloudComponent from './components/CloudComponent';
 import './App.css';
+import MainHeaderComponent from './components/MainHeaderComponent';
 
 function App() {
 
@@ -12,9 +13,9 @@ function App() {
       <head>
        <link rel="stylesheet" href="app.css"></link>
       </head>
-      <header className='main-header'>
-        <h1 className='title name-title'>Seth Behar</h1>
-      </header>
+      <div className='main-header'>
+        <MainHeaderComponent />
+      </div>
       <body>
         <header className='title section-title'>University of Florida</header>
           <section className='education-list'>
