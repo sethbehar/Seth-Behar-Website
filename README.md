@@ -2,10 +2,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Project Structure](#project-structure)
-- [Components](#components)
 - [Contact](#contact)
 
 ## Introduction
@@ -14,7 +11,6 @@ This personal website project is built using React. It showcases information abo
 ## Project Structure
 The project structure is organized as follows:
 
-- `src`: This directory contains the source code of the project.
   - `components`: This directory contains React components used in the project.
     - `ParticleComponent.js`: A component that renders particle effects in the background.
     - `CloudComponent.js`: A component that displays a cloud-like visualization for skills.
