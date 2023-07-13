@@ -5,6 +5,10 @@
     color: white;
   }
   
+  a {
+    text-decoration: none;
+  }
+
   ul {
     list-style: none;
   }
@@ -59,7 +63,7 @@
     height: 100px;
     text-align: center;
     padding: 0;
-    margin: 35px;
+    margin: 3rem;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -67,7 +71,7 @@
     min-height: 10vh;
     position: relative;
     -webkit-box-reflect: below -50px linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-    font-size: 45px;
+    font-size: 3rem;
   }
   
   .name-title {
@@ -78,7 +82,7 @@
   .skills-list {
     margin: auto;
     text-align: center;
-    width: 400px;
+    width: 20rem;
   }
   
   .container {

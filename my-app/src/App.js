@@ -40,16 +40,16 @@ function App() {
             <ul>
               <li>Automated 401k Rebalances</li>
               <li>Unreal Engine Advertisment Rendering</li>
+              <li><a href='https://borrowedfuel.web.app/' target="_blank" rel="noopener noreferrer">Borrowed Fuel Calculator Web App</a></li>
               <li>Minesweeper</li>
-              <li>NFT Generator</li>
             </ul>
           </section>
           <header className='title section-title'>Contact</header>
             <section>
               <ul>
                 <li>sethbehar@gmail.com</li>
-                <li><a href='https://github.com/sethbehar'>Github</a></li>
-                <li><a href='https://www.linkedin.com/in/seth-behar/'>Linkedin</a></li>
+                <li><a href='https://github.com/sethbehar' target="_blank" rel="noopener noreferrer">Github</a></li>
+                <li><a href='https://www.linkedin.com/in/seth-behar/' target="_blank" rel="noopener noreferrer">Linkedin</a></li>
               </ul>
             </section>
       </body>

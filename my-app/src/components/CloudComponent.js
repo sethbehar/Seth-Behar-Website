@@ -7,15 +7,15 @@ const data = [
   { value: 'C++', count: 38 },
   { value: 'React', count: 30 },
   { value: 'JavaScript', count: 28 },
-  { value: 'Express.js', count: 25 },
+  { value: 'Express', count: 25 },
   { value: 'HTML5', count: 33 },
   { value: 'CSS3', count: 20 },
   { value: 'Python', count: 22 },
   { value: 'Firebase', count: 25 },
   { value: 'Git', count: 27 },
   { value: 'SQL', count: 30 },
-  { value: 'TypeScript', count: 15 },
-  { value: 'Flow', count: 30 },
+  { value: 'Flow', count: 15 },
+  { value: 'Node', count: 30 },
   { value: 'NPM', count: 11 },
 ]
 
