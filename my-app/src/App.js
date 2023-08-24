@@ -21,14 +21,14 @@ function App() {
           <section className='education-list'>
             <ul>
               <li>Bachelor of Science in Computer Science</li>
-              <li>GPA 3.78</li>
+              <li>GPA 3.68</li>
             </ul>
           </section>
         <header className='title section-title'>Experience</header>
           <section className='experience-list'>
             <ul>
               <li>eBacon Software Engineer Internship</li>
-              <li>TAMID Project Manager</li>
+              <li>TAMID Group Project Manager</li>
             </ul>
           </section>
         <header className='title section-title'>Skills</header>
