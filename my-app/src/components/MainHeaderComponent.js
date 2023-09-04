@@ -1,41 +1,49 @@
 import React from 'react';
 
-
 const MainHeaderComponent = () => {
-  const renderSpans = () => {
-    const letters = ['S', 'E', 'T', 'H', ' ', 'B', 'E', 'H', 'A', 'R'];
+  const renderSpans = (letters) => {
+    return letters.map((letter, index) => (
+      <span key={index} style={{ '--i': index + 1 }}>
+        {letter}
+      </span>
+    ));
+  };
 
-    const firstName = ['S', 'E', 'T', 'H'].map((letter, index) => {
-      return <span key={index} style={{'--i': index + 1}}>{letter}</span>
-    })
-
-    const lastName = ['B', 'E', 'H', 'A', 'R'].map((letter, index) => {
-      return <span key={index} style={{'--i': index + 1}}>{letter}</span>
-    })
-
-    return {firstName, lastName}
-    // return letters.map((letter, index) => (
-    //   <span key={index} style={{'--i': index + 1}}>
-    //     {letter}
-    //   </span>
-    // ));
-
-    
+  const headerContainerStyle = {
+    display: 'flex',
+    justifyContent: 'center', // Center the headers horizontally
+    alignItems: 'center',     // Center the headers vertically
+    flexWrap: 'wrap',         // Allow items to wrap on small screens
   };
 
   const firstNameStyle = {
     display: 'flex',
+    alignItems: 'center', // Center the letters vertically
   };
 
   const lastNameStyle = {
     display: 'flex',
+    alignItems: 'center', // Center the letters vertically
+  };
+
+  // Define a CSS class to apply only on mobile screens
+  const mobileHeaderClass = 'mobile-header';
+
+  // Check the screen width and apply the class conditionally
+  if (window.innerWidth <= 768) {
+    headerContainerStyle['className'] = mobileHeaderClass;
   }
 
-  return <>
-      <div style={firstNameStyle} className="fistName-header">{renderSpans().firstName}</div>
-      <div style={lastNameStyle} className="lastName-header">{renderSpans().lastName}</div>
-    </>
-  //return <div className="main-header">{renderSpans()}</div>;
+  return (
+    <div style={headerContainerStyle}>
+      <div style={firstNameStyle} className="fistName-header">
+        {renderSpans(['S', 'E', 'T', 'H'])}
+      </div>
+      <div style={lastNameStyle} className="lastName-header">
+        {renderSpans(['B', 'E', 'H', 'A', 'R'])}
+      </div>
+    </div>
+  );
 };
 
 export default MainHeaderComponent;
