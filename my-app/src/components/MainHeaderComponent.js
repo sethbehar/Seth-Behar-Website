@@ -10,7 +10,7 @@ const MainHeaderComponent = () => {
   };
   const renderSpansLast = (letters) => {
     return letters.map((letter, index) => (
-      <span key={index} style={{ '--i': index + 4 }}>
+      <span key={index} style={{ '--i': index + 5 }}>
         {letter}
       </span>
     ));
