@@ -1,14 +1,22 @@
 import React from 'react';
 
 const MainHeaderComponent = () => {
-  const renderSpans = (letters) => {
+  const renderSpansFirst = (letters) => {
     return letters.map((letter, index) => (
       <span key={index} style={{ '--i': index + 1 }}>
         {letter}
       </span>
     ));
   };
+  const renderSpansLast = (letters) => {
+    return letters.map((letter, index) => (
+      <span key={index} style={{ '--i': index + 4 }}>
+        {letter}
+      </span>
+    ));
 
+    
+  };
   const headerContainerStyle = {
     display: 'flex',
     justifyContent: 'center', // Center the headers horizontally
@@ -37,10 +45,10 @@ const MainHeaderComponent = () => {
   return (
     <div style={headerContainerStyle}>
       <div style={firstNameStyle} className="fistName-header">
-        {renderSpans(['S', 'E', 'T', 'H'])}
+        {renderSpansFirst(['S', 'E', 'T', 'H'])}
       </div>
       <div style={lastNameStyle} className="lastName-header">
-        {renderSpans(['B', 'E', 'H', 'A', 'R'])}
+        {renderSpansLast(['B', 'E', 'H', 'A', 'R'])}
       </div>
     </div>
   );

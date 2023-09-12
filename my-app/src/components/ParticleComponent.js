@@ -23,7 +23,7 @@ export default function App() {
         },
         "particles": {
             "number": {
-                "value": 15,
+                "value": 18,
                 "density": {
                     "enable": false,
                     "value_area": 800
